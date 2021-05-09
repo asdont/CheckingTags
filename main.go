@@ -24,16 +24,15 @@
 //	extractingTags(bodyHtml)
 //}
 
-
 package main
 
 import (
-"fmt"
-"io/ioutil"
-"log"
-"os"
-"regexp"
-"strings"
+	"fmt"
+	"io/ioutil"
+	"log"
+	"os"
+	"regexp"
+	"strings"
 )
 
 func main() {
@@ -80,19 +79,21 @@ func extractingTags(bodyString string) {
 	for _, typeHref := range typesHref {
 		listHref := regexp.MustCompile(typeHref).FindAllString(bodyString, -1)
 		for _, href := range listHref {
-			tagHref, checksTag := validationHref(cleanedTag(href))
+			tagHref, checksTag := validationHrefTag(cleanedTag(href))
 			resHref[tagHref] = checksTag
 		}
 	}
+	fmt.Println(resHref)
 
 	resImg := map[string][]bool{}
 	for _, typeImg := range typesImg {
 		listImg := regexp.MustCompile(typeImg).FindAllString(bodyString, -1)
 		for _, img := range listImg {
-			tagImg, checksTag := validationImg(cleanedTag(img))
+			tagImg, checksTag := validationImgTag(cleanedTag(img))
 			resImg[tagImg] = checksTag
 		}
 	}
+	fmt.Println(resImg)
 }
 
 func cleanedTag(tag string) string {
@@ -102,65 +103,80 @@ func cleanedTag(tag string) string {
 	return tag
 }
 
-func validationHref(tagHref string) (string, []bool) {
-	tagHref = strings.Replace(tagHref, "'", "\"", -1)
+func validationHrefTag(tagHref string) (string, []bool) {
+	tagHref = strings.ToLower(strings.Replace(tagHref, "'", "\"", -1))
 
-	link := regexp.MustCompile(`[href]{3,4}="[\s\S]*?"`).FindString(tagHref)
+	linkHref := regexp.MustCompile(`[href]{3,4}="[\s\S]*?"`).FindString(tagHref)
 
-	// валидация тега
+	// валидация тега a href
 	var existABegin, existHref, existUrl, existText, existAEnd bool
 
+	/* проверки тега A */
 	existABegin = strings.HasPrefix(tagHref, "<a ")                              // наличие открывающегося тега a
 	existHref = strings.Contains(tagHref, "href")                                // наличие атрибута href
-	existUrl = len(link) > 7                                                           // url указан, href="" (7)
+	existUrl = len(linkHref) > 7                                                 // наличие url, href="" (7)
 	existText = len(regexp.MustCompile(`>[\s\S]*?</a>`).FindString(tagHref)) > 5 // наличие текста ссылки, ></a> (5)
 	existAEnd = strings.HasSuffix(tagHref, "</a>")                               // наличие закрывающего тега a
+	/* ----------------- */
 
-	// валидация url в тэге
-	tagUrl := strings.Replace(link, "href=", "", 1)
+	// валидация url в тэге a href
+	tagUrl := strings.Replace(linkHref, "href=", "", 1)
 	tagUrl = strings.Trim(tagUrl, "\"")
 
-	correctTag := []bool{existABegin, existHref, existUrl, existText, existAEnd}
+	correctTagHref := []bool{existABegin, existHref, existUrl, existText, existAEnd}
 
-	correctUrl := validationURL(tagUrl)
-	for _, boolResult := range correctUrl {
-		correctTag = append(correctTag, boolResult)
+	correctUrlHref := validationURL(tagUrl)
+	for _, boolResult := range correctUrlHref {
+		correctTagHref = append(correctTagHref, boolResult)
 	}
 
-	return tagHref, correctTag
+	return tagHref, correctTagHref
 }
 
-func validationImg(tagImg string) (string, []bool) {
-	tagImg = strings.Replace(tagImg, "'", "\"", -1)
-	fmt.Println(tagImg)
-	link := regexp.MustCompile(`[src]{2,4}="[\s\S]*?"`).FindString(tagImg)
-	fmt.Println(link)
+func validationImgTag(tagImg string) (string, []bool) {
+	tagImg = strings.ToLower(strings.Replace(tagImg, "'", "\"", -1))
 
-	tagSrc := strings.Replace(link, "src=", "", 1)
-	tagSrc = strings.Trim(tagSrc, "\"")
-	fmt.Println(tagSrc)
+	linkImg := regexp.MustCompile(`[src]{2,4}="[\s\S]*?"`).FindString(tagImg)
 
-	return "", []bool{}
+	// валидация тега img src
+	var existImg, existSrc, existUrl, existEnding bool
+
+	/* проверки тега IMG */
+	existImg = strings.HasPrefix(tagImg, "<img ") // наличие открывающего тега <img
+	existSrc = strings.Contains(tagImg, "src")    // наличие атрибута src
+	existUrl = len(linkImg) > 6                   // наличие ссылки (src="")(6)
+	existEnding = strings.HasSuffix(tagImg, ">")  // закрытие тега
+	/* ----------------- */
+
+	// валидация url в тэге img
+	tagUrl := strings.Replace(linkImg, "src=", "", 1)
+	tagUrl = strings.Trim(tagUrl, "\"")
+
+	correctTagImg := []bool{existImg, existSrc, existUrl, existEnding}
+
+	correctUrlImg := validationURL(tagUrl)
+	for _, boolResult := range correctUrlImg {
+		correctTagImg = append(correctTagImg, boolResult)
+	}
+
+	return tagImg, correctTagImg
 }
 
 func validationURL(tagURL string) []bool {
 	// валидация url относительного(<protocol>://<domain>) и абсолютного типа(/<path>/<path>)
-	isAbsolute := regexp.MustCompile(`:/|/{2}|[htps]{4,5}|[.]`).MatchString(tagURL)
+	var existProtocol, existDomain, existSeparators, existSybolsAllowed, existDot bool
 
-	var existProtocol, existDomain, existSeparators, existSybolsAllowed bool
+	existProtocol = true                                                         // наличие протокола
+	existSeparators = true                                                       // наличие разделителей
+	existDomain = len(tagURL) > 5                                                // длина ссылки, например vk.ru(5)
+	existSybolsAllowed = !regexp.MustCompile(`[^\w\d:/.#-]`).MatchString(tagURL) // проверка запрещенных символов
+	existDot = strings.Contains(tagURL, ".")                                     // наличие точки
+
+	isAbsolute := regexp.MustCompile(`:/|/{2}|[htps]{4,5}`).MatchString(tagURL)
 	if isAbsolute {
-		existProtocol = strings.Contains(tagURL, "http")                             // наличие протокола
-		existDomain = len(regexp.MustCompile(`://[\s\S]*?"`).FindString(tagURL)) > 4 // ://url.ru"(>4)
-		existSeparators = strings.Count(tagURL, "/") > 2                             // наличие разделителей
-		existSybolsAllowed = !regexp.MustCompile(`[^\w\d:/.#-]`).MatchString(tagURL) // проверка запрещенных символов
-	} else {
-		existProtocol = true
-		existDomain = true
-		existSeparators = true
-		existSybolsAllowed = !regexp.MustCompile(`[^\w\d:/.#-]`).MatchString(tagURL) // проверка запрещенных символов
+		existProtocol = strings.Contains(tagURL, "http")
+		existSeparators = strings.Count(tagURL, "/") >= 2
 	}
 
-	return []bool{existProtocol, existDomain, existSeparators, existSybolsAllowed}
+	return []bool{existProtocol, existDomain, existSeparators, existSybolsAllowed, existDot}
 }
-
-
