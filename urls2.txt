@@ -1,0 +1,2418 @@
+
+<!DOCTYPE html>
+<html lang="ru" prefix="og: http://ogp.me/ns# video: http://ogp.me/ns/video# ya: http://webmaster.yandex.ru/vocabularies/ article: http://ogp.me/ns/article#  profile: http://ogp.me/ns/profile#">
+<head itemscope itemtype="http://schema.org/WebSite">
+    <link rel="apple-touch-icon" href="/images/safari_60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/safari_76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/safari_120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/safari_152.png">
+    <title itemprop='name'>Статьи различной тематики</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="canonical" href="https://mnemag.ru/articles" itemprop="url" />
+	        <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/livingston-css3-mediaqueries-js/1.0.0/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+    	<meta name="keywords" content="читать, статьи, разные, интересные, полезные">
+	<meta name="description" content="Здесь размещены статьи на самые разные темы. Активно включайтесь в обсуждение, размещайте свои публикации. Записи можно фильтровать по рейтингу и обсуждаемости. Подпишитесь, чтобы читать новые статьи первыми.">
+	<link rel="search" type="application/opensearchdescription+xml" href="/search/opensearch" title="Поиск на MneMag" />
+	<link rel="stylesheet" type="text/css" href="/cache/static/css/styles.e9218cd3e2dc41867e55ef404bd72284.css?15280247622">
+	<link rel="stylesheet" type="text/css" href="/templates/default/controllers/subscriptions/styles.css?15280247622">
+	<script src="/cache/static/js/scripts.5d86d2e386b7ac9e88aee9c396b2bc19.js?15280247622" ></script>
+    <meta name="csrf-token" content="0b2af680f1137bc5b9106ea05af5349861c58c3c45cb8b750e1b99dc477c3830" />
+    <style></style>
+	    <link rel="stylesheet" type="text/css" href="/templates/tc/css/gll.css?15280247622">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    
+</head>
+<body id="desktop_device_type" itemscope itemtype="http://schema.org/WebPage">
+
+	
+    <div id="layout" class="is_page_articles">
+
+        		
+		<header class="tc_header" itemscope itemtype="http://schema.org/WPHeader">
+							<div id="tc_top_header">
+					<div class="tc_boxed">
+													<div class="tc_th_left">
+								<div class="widget_html_block"><a href="/" title="На главную"><img src="/logo.png" width="150" height="42" alt="MneMag - магазины и отзывы"></a></div>
+
+							</div>
+																			<div class="tc_th_right">
+								<ul class="wd_notices_icons">
+	<li id="wd_messages_block">
+		<a href="javascript:void(0);" onclick="open_block('messages')">
+			<i class="fa fa-envelope"></i><span class="bx_counter">&nbsp;</span>
+		</a>
+		<div class="wd_open_block">
+			<div class="wd_ob_head">
+				Сообщения
+			</div>
+			<div class="wd_ob_body">
+				<img src="/templates/default/images/loader24.gif" alt="Загрузка..." class="bx_load_notices" />
+			</div>
+			<div class="wd_ob_footer ajax-modal">
+				<a href="/messages">Показать все</a>
+			</div>
+		</div>
+	</li>
+	<li id="wd_notices_block">
+		<a href="javascript:void(0);" onclick="open_block('notices')">
+			<i class="fa fa-bell"></i><span class="bx_counter">&nbsp;</span>
+		</a>
+		<div class="wd_open_block" id="pm_notices_window" data-action-url="/messages/notice_action">
+			<div class="wd_ob_head">
+				Уведомления
+			</div>
+			<div class="wd_ob_body">
+				<img src="/templates/default/images/loader24.gif" alt="Загрузка..." class="bx_load_notices" />
+			</div>
+			<div class="wd_ob_footer ajax-modal">
+				<a href="/messages/notices">Показать все</a>
+			</div>
+		</div>
+	</li>
+	</ul><div class="widget_user_avatar">
+
+    <div class="user_info">
+
+        <div class="avatar">
+            <a href="/users/1">
+                <img class="img-thumbnail" src="/upload/000/u1/e/f/d1bf3411.jpg" alt="MneMag" title="MneMag" />            </a>
+        </div>
+
+        <div class="name">
+            <a href="/users/1">
+                MneMag            </a>
+        </div>
+
+    </div>
+
+    <ul class="menu">
+
+    
+    
+        
+        
+        
+        <li class="bell ajax-modal notices-counter">
+                            <a title="Уведомления" class="item"  href="/messages/notices"  target="_self">
+                    <span class="wrap">
+                        Уведомления                                                    <span class="counter">1</span>
+                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="profile">
+                            <a title="Профиль" class="item"  href="/users/1"  target="_self">
+                    <span class="wrap">
+                        Профиль                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="messages messages-counter ajax-modal">
+                            <a title="Сообщения" class="item"  href="/messages"  target="_self">
+                    <span class="wrap">
+                        Сообщения                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="checklist">
+                            <a title="Модерация" class="item"  href="/moderation"  >
+                    <span class="wrap">
+                        Модерация                                                    <span class="counter">4</span>
+                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="folder add">
+                            <a title="Добавить" class="item"  href="#"  >
+                    <span class="wrap">
+                        Добавить                                            </span>
+                </a>
+            
+            <ul>
+        
+    
+        
+        
+        
+        <li class="add">
+                            <a title="Добавить объявление" class="item"  href="/board_ads/add"  >
+                    <span class="wrap">
+                        Добавить объявление                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="add">
+                            <a title="Добавить новость" class="item"  href="/news/add"  >
+                    <span class="wrap">
+                        Добавить новость                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="add">
+                            <a title="Добавить новость магазина" class="item"  href="/snews/add"  >
+                    <span class="wrap">
+                        Добавить новость магазина                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="add">
+                            <a title="Добавить Магазин\Компанию" class="item"  href="/shop/add"  >
+                    <span class="wrap">
+                        Добавить Магазин\Компанию                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="add">
+                            <a title="Добавить отзыв" class="item"  href="/reviews/add"  >
+                    <span class="wrap">
+                        Добавить отзыв                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="add">
+                            <a title="Добавить записку" class="item"  href="/posts/add"  >
+                    <span class="wrap">
+                        Добавить записку                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="add">
+                            <a title="Добавить статью" class="item"  href="/articles/add"  >
+                    <span class="wrap">
+                        Добавить статью                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="add">
+                            <a title="Добавить блог в сообществе" class="item"  href="/gblog/add"  >
+                    <span class="wrap">
+                        Добавить блог в сообществе                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="add">
+                            <a title="Добавить информацию" class="item"  href="/info/add"  >
+                    <span class="wrap">
+                        Добавить информацию                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="add">
+                            <a title="Добавить страницу" class="item"  href="/pages/add"  >
+                    <span class="wrap">
+                        Добавить страницу                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="add">
+                            <a title="Добавить фотоальбом" class="item"  href="/albums/add"  >
+                    <span class="wrap">
+                        Добавить фотоальбом                                            </span>
+                </a>
+            
+            
+        
+    
+                    </li></ul>
+        
+                    </li>
+        
+        
+        <li class="folder cpanel">
+                            <a title="Панель управления" class="item"  href="/admin"  >
+                    <span class="wrap">
+                        Панель управления                                            </span>
+                </a>
+            
+            <ul>
+        
+    
+        
+        
+        
+        <li class="cpanel">
+                            <a title="Контент" class="item"  href="/admin/content"  >
+                    <span class="wrap">
+                        Контент                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="cpanel">
+                            <a title="Типы контента" class="item"  href="/admin/ctypes"  >
+                    <span class="wrap">
+                        Типы контента                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="cpanel">
+                            <a title="Меню" class="item"  href="/admin/menu"  >
+                    <span class="wrap">
+                        Меню                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="cpanel">
+                            <a title="Виджеты и страницы" class="item"  href="/admin/widgets"  >
+                    <span class="wrap">
+                        Виджеты и страницы                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="cpanel">
+                            <a title="Компоненты" class="item"  href="/admin/controllers"  >
+                    <span class="wrap">
+                        Компоненты                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="cpanel">
+                            <a title="Каталог дополнений" class="item"  href="/admin/addons_list"  >
+                    <span class="wrap">
+                        Каталог дополнений                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="cpanel">
+                            <a title="Пользователи" class="item"  href="/admin/users"  >
+                    <span class="wrap">
+                        Пользователи                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="cpanel">
+                            <a title="Настройки" class="item"  href="/admin/settings"  >
+                    <span class="wrap">
+                        Настройки                                            </span>
+                </a>
+            
+            
+        
+    
+                    </li></ul>
+        
+                    </li>
+        
+        
+        <li class="logout">
+                            <a title="Выйти" class="item"  href="/auth/logout"  target="_self">
+                    <span class="wrap">
+                        Выйти                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Комментарии" class="item"  href="/admin/controllers/edit/comments"  target="_blank">
+                    <span class="wrap">
+                        Комментарии                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Обратная связь" class="item"  href="/admin/controllers/edit/feedbackl/viwe"  target="_blank">
+                    <span class="wrap">
+                        Обратная связь                                            </span>
+                </a>
+            
+            
+        
+    
+            </li></ul>
+    
+</div>
+<a class="topbar_search_button" href="javascript:void(0);"><i class="fa fa-search"></i></a>
+<div class="topbar_search tc_boxed">
+	<form action="/search" method="get" class="topbar_search_form">
+		<fieldset>
+			<input type="search" name="q" class="form-control" placeholder="Что найти?" autocomplete="off">
+		</fieldset>
+	</form>
+	<a class="topbar_search_close" href="javascript:void(0);"><i class="fa fa-close"></i></a>
+</div>
+							</div>
+											</div>
+				</div>
+													<div id="tc_bottom_header" >
+					<div class="tc_boxed">
+						<nav id="main_menu">
+							<ul class="menu">
+
+    
+    
+        
+        
+        
+        <li >
+                            <a title="Новости" class="item"  href="/news/glavnye"  target="_self">
+                    <span class="wrap">
+                        Новости                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Магазины и услуги" class="item"  href="/shop"  target="_self">
+                    <span class="wrap">
+                        Магазины и услуги                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Отзывы" class="item"  href="/reviews"  target="_self">
+                    <span class="wrap">
+                        Отзывы                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Объявления" class="item"  href="/board_ads"  target="_self">
+                    <span class="wrap">
+                        Объявления                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="active">
+                            <a title="Читальня" class="item"  href="/articles"  target="_self">
+                    <span class="wrap">
+                        Читальня                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Вопрос\Ответ" class="item"  href="/questions"  target="_self">
+                    <span class="wrap">
+                        Вопрос\Ответ                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Полезное" class="item"  href="/info"  target="_self">
+                    <span class="wrap">
+                        Полезное                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Записки" class="item"  href="/posts"  target="_self">
+                    <span class="wrap">
+                        Записки                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Помощь" class="item"  href="/help"  target="_self">
+                    <span class="wrap">
+                        Помощь                                            </span>
+                </a>
+            
+            
+        
+    
+            </li></ul>
+    						</nav>
+						<a href="javascript:void(0);" class="menu_mobile is_mm" style="display:none">
+	<i class="fa fa-bars"></i> &nbsp; Меню</a>
+<nav id="menu_mobile" style="display:none">
+	<ul class="menu">
+
+    
+    
+        
+        
+        
+        <li >
+                            <a title="Новости" class="item"  href="/news/glavnye"  target="_self">
+                    <span class="wrap">
+                        Новости                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Магазины и услуги" class="item"  href="/shop"  target="_self">
+                    <span class="wrap">
+                        Магазины и услуги                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Отзывы" class="item"  href="/reviews"  target="_self">
+                    <span class="wrap">
+                        Отзывы                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Объявления" class="item"  href="/board_ads"  target="_self">
+                    <span class="wrap">
+                        Объявления                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="active">
+                            <a title="Читальня" class="item"  href="/articles"  target="_self">
+                    <span class="wrap">
+                        Читальня                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Вопрос\Ответ" class="item"  href="/questions"  target="_self">
+                    <span class="wrap">
+                        Вопрос\Ответ                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Полезное" class="item"  href="/info"  target="_self">
+                    <span class="wrap">
+                        Полезное                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Записки" class="item"  href="/posts"  target="_self">
+                    <span class="wrap">
+                        Записки                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Помощь" class="item"  href="/help"  target="_self">
+                    <span class="wrap">
+                        Помощь                                            </span>
+                </a>
+            
+            
+        
+    
+            </li></ul>
+    </nav>					</div>
+				</div>
+					</header>
+		
+		<div id="body">
+		
+							<div class="breadcrumbs">
+					<div id="breadcrumbs" class="tc_boxed">
+						<ul itemscope itemtype="http://schema.org/BreadcrumbList">
+
+    <li class="home" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a href="/" title="Главная" itemprop="item">
+			<meta itemprop="name" content="Главная">
+			<span><i class="fa fa-home"></i></span>
+		</a>
+		<meta itemprop="position" content="0" />
+    </li>
+
+    
+        
+            
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                                    <span itemprop="item"><span itemprop="name">Читальня</span></span>
+                				<meta itemprop="position" content="1" />
+            </li>
+
+            
+        
+    </ul>					</div>
+				</div>
+					
+			
+			<div class="tc_b_center">
+				<div class="tc_boxed">
+				<div class="tc_columns tc_col_rm">
+				
+					<section id="tc_main_content">
+
+												
+						
+													<article>
+								<div id="controller_wrap">
+									<div class="subscribe_wrap">
+    <a href="#" class="subscriber" data-hash="76a5217ad05aa3dd8e9368e30d80fc26" data-link0="/subscriptions/subscribe" data-link1="/subscriptions/unsubscribe" data-text0="Подписаться" data-text1="Отписаться" data-issubscribe="1" data-target="{&quot;controller&quot;:&quot;content&quot;,&quot;subject&quot;:&quot;articles&quot;,&quot;params&quot;:[]}"><svg class="style-svg" width="14" height="14" viewBox="0 0 18 18"><g fill="none"><path d="M2.5 14h13v-.382l-2-1V12l.002-3.938c-.152-2.44-1.12-4.02-3.262-4.596l-.74-.2V2h-1v1.267l-.74.199C5.669 4.028 4.658 5.66 4.5 8v4.618l-2 1V14z" stroke="#FFF" stroke-width="2"></path><path d="M9 17c.986 0 1.5-.514 1.5-1.5V15h-3v.5c0 .986.514 1.5 1.5 1.5z" fill="#FFF"></path><path d="M2.5 14h13v-.382l-2-1V12l.002-3.938c-.152-2.44-1.12-4.02-3.262-4.596l-.74-.2V2h-1v1.267l-.74.199C5.669 4.028 4.658 5.66 4.5 8v4.618l-2 1V14z" stroke="#FFF" stroke-width="2"></path></g></svg> <span></span></a>
+    <div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div>
+    <span title="Подписчики" class="count-subscribers" data-list_link="/subscriptions/list_subscribers/76a5217ad05aa3dd8e9368e30d80fc26">2</span>
+</div>									
+
+    <h1>
+        Полезные, интересные и обучающие статьи            </h1>
+
+<div class="content_datasets">
+    <ul class="pills-menu">
+                                        <li class="active all">
+
+                
+                                    <div>Все</div>
+                
+            </li>
+                                            <li class="discussion">
+
+                
+                                    <a href="/articles-discussion">
+                        Обсуждаемые                    </a>
+                
+            </li>
+                                            <li class="rating">
+
+                
+                                    <a href="/articles-rating">
+                        Рейтинг                    </a>
+                
+            </li>
+                        </ul>
+</div>
+
+
+
+
+
+
+
+
+    <div class="content_list default_list articles_list">
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/12-samyh-neozhidannyh-allergii.html">
+                                <img src="/upload/000/u1/a/a/12-samyh-neozhidannyh-allergii-photo-small.jpg" title="12 самых неожиданных аллергий" alt="12 самых неожиданных аллергий"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/12-samyh-neozhidannyh-allergii.html">12 самых неожиданных аллергий</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    Аллергику приходится вести себя намного осторожнее и ограничивать определенные действия. Для кого-то цветочная пыльца, шерсть животных или капелька меда являются настоящими врагами, которые не дают житья. Встреча с ними грозит серьезными последствиями, вплоть до попадания в больницу. Но есть совершенно неожиданные аллергены, о которых не знают многие люди.   1. Вода  Это кажется невероятным, но на самом деле факт. Существуют люди с аллергией на воду.<a class="read-more" href="/articles/12-samyh-neozhidannyh-allergii.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-187"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="zero">
+                0            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+    <script>
+        icms.rating.setOptions({
+            url: '/rating/vote'
+        });
+    </script>
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/12-samyh-neozhidannyh-allergii.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/remont-i-okraska-potolka.html">
+                                <img src="/upload/000/u1/b/b/remont-i-okraska-potolka-photo-small.jpg" title="Ремонт и окраска потолка" alt="Ремонт и окраска потолка"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/remont-i-okraska-potolka.html">Ремонт и окраска потолка</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    Перед тем, как приступить к работе, поверхность необходимо подготовить, т.е. отчистить от пыли и грязи, убрать старую окраску, зачистить, смазать специальным средством.   При окраске потолка иногда могут возникнуть недочеты - это неокрашенные места и капли краски, упавшие на пол. Для того чтобы таких нюансов не было, нужно правильно подобрать краску.<a class="read-more" href="/articles/remont-i-okraska-potolka.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-186"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="zero">
+                0            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/remont-i-okraska-potolka.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/5-bystryh-metodov-izbavlenija-ot-plohogo-nastroenija.html">
+                                <img src="/upload/000/u1/5/0/5-bystryh-metodov-izbavlenija-ot-plohogo-nastroenija-photo-small.jpg" title="5 быстрых методов избавления от плохого настроения" alt="5 быстрых методов избавления от плохого настроения"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/5-bystryh-metodov-izbavlenija-ot-plohogo-nastroenija.html">5 быстрых методов избавления от плохого настроения</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    Иногда плохое настроение обусловлено определенными факторами, иногда оно вовсе не имеет причин. Но то, что такое состояние отравляет жизнь не только окружающим, но и самому человеку, это факт. Поэтому сегодня известно много способов, как избавиться от негативного расположения духа, но лишь некоторые из них действенные.   Часто встречается метод, который предлагает притворяться позитивно настроенным, пока это состояние не станет подлинным.<a class="read-more" href="/articles/5-bystryh-metodov-izbavlenija-ot-plohogo-nastroenija.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-185"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="zero">
+                0            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/5-bystryh-metodov-izbavlenija-ot-plohogo-nastroenija.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/fakty-o-shozhesti-zhivotnyh-i-lyudei.html">
+                                <img src="/upload/000/u1/6/6/fakty-o-shozhesti-zhivotnyh-i-lyudei-photo-small.jpg" title="Факты о схожести животных и людей" alt="Факты о схожести животных и людей"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/fakty-o-shozhesti-zhivotnyh-i-lyudei.html">Факты о схожести животных и людей</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    Кажется, что по сравнению с животными мы имеем высший разум, и они не дотягивают до нашего уровня по многим факторам. Пусть животные не умеют говорить на человеческом языке, но они также могут веселиться, дружить, грустить и общаться. Многочисленные факты доказывают, что мы часто не замечаем много интересного, что происходит вокруг нас, и зря.   Волнистые попугайчики выбирают умного партнера  В Институте зоологии Китая провели интересный эксперимент.<a class="read-more" href="/articles/fakty-o-shozhesti-zhivotnyh-i-lyudei.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-184"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="zero">
+                0            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/fakty-o-shozhesti-zhivotnyh-i-lyudei.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/rezhim-dnja-dlja-shkolnika.html">
+                                <img src="/upload/000/u1/0/0/rezhim-dnja-dlja-shkolnika-photo-small.jpg" title="Режим дня для школьника" alt="Режим дня для школьника"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/rezhim-dnja-dlja-shkolnika.html">Режим дня для школьника</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    Всем людям необходим разумно составленный режим дня. Но больше всего распорядок нужен детям в возрасте до 16 лет. Ведь именно в этом возрасте закладываются предпосылки на все будущие болезни. У распорядка дня есть несколько тезисов. Не соблюдая их, нет смысла говорить о режиме.   Сон  Во-первых, время подъёма и отхода ко сну должно быть постоянным, как в будни, так и в выходные или каникулы. Вообще, ребёнку школьного возраста нужно ложиться спать не позже 21-22 часов.<a class="read-more" href="/articles/rezhim-dnja-dlja-shkolnika.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-183"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="zero">
+                0            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/rezhim-dnja-dlja-shkolnika.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/sposob-prigotovlenija-vlijaet-na-kaloriinost-produktov.html">
+                                <img src="/upload/000/u1/8/2/sposob-prigotovlenija-vlijaet-na-kaloriinost-produktov-photo-small.jpg" title="Способ приготовления влияет на калорийность продуктов" alt="Способ приготовления влияет на калорийность продуктов"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/sposob-prigotovlenija-vlijaet-na-kaloriinost-produktov.html">Способ приготовления влияет на калорийность продуктов</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    Подсчитывая калории, важно понимать, что энергетическая ценность продукта может изменяться в зависимо от способа готовки. К примеру, картофель после жарки становится намного калорийнее, а вот макароны после варки, наоборот, превращаются почти в диетические. Посмотрим, сколько калорий содержится в различных продуктах при разных способах приготовления, чтобы извлекать из них максимальную пользу для организма.<a class="read-more" href="/articles/sposob-prigotovlenija-vlijaet-na-kaloriinost-produktov.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-182"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="zero">
+                0            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/sposob-prigotovlenija-vlijaet-na-kaloriinost-produktov.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/do-sih-por-nerazgadannye-bibleiskie-tainy.html">
+                                <img src="/upload/000/u1/5/5/do-sih-por-nerazgadannye-bibleiskie-tainy-photo-small.jpg" title="До сих пор неразгаданные библейские тайны" alt="До сих пор неразгаданные библейские тайны"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/do-sih-por-nerazgadannye-bibleiskie-tainy.html">До сих пор неразгаданные библейские тайны</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    Долгое время факты, описанные в Библии, считались вымыслом, поэтому не особо интересовали ученых. Сейчас же установлено, что все это вполне могло происходить на самом деле, поэтому специалисты взялись изучать все более подробно, отыскивать разгадку многих тайн. А секретов до сих пор немало.   В Библии некоторая информация, которая могла бы пролить свет на события, отсутствует. Иногда она есть, но недоступна для понимания современников.<a class="read-more" href="/articles/do-sih-por-nerazgadannye-bibleiskie-tainy.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-181"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="zero">
+                0            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/do-sih-por-nerazgadannye-bibleiskie-tainy.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/pochemu-fizicheskoe-nakazanie-neudachnyi-sposob-vospitanija-detei.html">
+                                <img src="/upload/000/u1/b/e/pochemu-fizicheskoe-nakazanie-neudachnyi-sposob-vospitanija-detei-photo-small.jpg" title="Почему физическое наказание &ndash; неудачный способ воспитания детей" alt="Почему физическое наказание &ndash; неудачный способ воспитания детей"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/pochemu-fizicheskoe-nakazanie-neudachnyi-sposob-vospitanija-detei.html">Почему физическое наказание &ndash; неудачный способ воспитания детей</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    Несмотря на новые методы воспитания, к физическому наказанию прибегают 4 из 5 родителей, при том, что в 9 случаях из 10 им пользуются женщины (мама или опекун). Многие родители считают, что хорошая трепка пойдет на пользу их чаду, образумит и приведет в чувство. Иногда с этой целью могут применяться подручные предметы, такие как ремень. Но психологи доказали, что этот способ не является результативным, лучше использовать более прогрессивные методы. Выясним причины, почему это на самом деле так.<a class="read-more" href="/articles/pochemu-fizicheskoe-nakazanie-neudachnyi-sposob-vospitanija-detei.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-180"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="zero">
+                0            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/pochemu-fizicheskoe-nakazanie-neudachnyi-sposob-vospitanija-detei.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/prirodnye-antibiotiki-o-kotoryh-dolzhen-znat-kazhdyi.html">
+                                <img src="/upload/000/u1/7/8/prirodnye-antibiotiki-o-kotoryh-dolzhen-znat-kazhdyi-photo-small.jpg" title="Природные антибиотики, о которых должен знать каждый" alt="Природные антибиотики, о которых должен знать каждый"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/prirodnye-antibiotiki-o-kotoryh-dolzhen-znat-kazhdyi.html">Природные антибиотики, о которых должен знать каждый</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    При каждом малейшем недомогании рука современного человека тянется в аптечку, где есть множество таблеток, мазей, капсул, пилюль. Между тем сама природа может предложить нам множество альтернативных вариантов лечения. Такие средства безвредны, и дают пролонгированный эффект. Почему же человек не хочет применять такие полезные дары? Потому, что это требует более длительного времени. К тому же, придется приложить некоторые усилия: очистить, порезать, отварить, сделать настойку.<a class="read-more" href="/articles/prirodnye-antibiotiki-o-kotoryh-dolzhen-znat-kazhdyi.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-179"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="zero">
+                0            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/prirodnye-antibiotiki-o-kotoryh-dolzhen-znat-kazhdyi.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/fakty-ob-oteljah-kotorye-umalchivaet-personal.html">
+                                <img src="/upload/000/u1/0/4/fakty-ob-oteljah-kotorye-umalchivaet-personal-photo-small.jpg" title="Факты об отелях, которые умалчивает персонал" alt="Факты об отелях, которые умалчивает персонал"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/fakty-ob-oteljah-kotorye-umalchivaet-personal.html">Факты об отелях, которые умалчивает персонал</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    Гостиница &ndash; это место, где хочется почувствовать домашнюю обстановку, хорошо отдохнуть и расслабиться. Кажется, что все здесь призвано предугадывать желания клиента, создавать ему удобства и обеспечивать комфорт. Так хотелось бы думать самому постояльцу, а вот на самом деле все обстоит несколько иначе.   Бесплатный завтрак не совсем бесплатный  Шведский стол в отелях стал очень популярным и полюбился клиентам. Но думать, что все это вы получаете в подарок, ошибочно.<a class="read-more" href="/articles/fakty-ob-oteljah-kotorye-umalchivaet-personal.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-178"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="positive">
+                +2            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/fakty-ob-oteljah-kotorye-umalchivaet-personal.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/nemeckie-privychki-kotorye-kazhutsja-nam-strannymi.html">
+                                <img src="/upload/000/u1/0/c/nemeckie-privychki-kotorye-kazhutsja-nam-strannymi-photo-small.jpg" title="Немецкие привычки, которые кажутся нам странными" alt="Немецкие привычки, которые кажутся нам странными"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/nemeckie-privychki-kotorye-kazhutsja-nam-strannymi.html">Немецкие привычки, которые кажутся нам странными</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    Германия интересна своеобразным бытом и укладом жизни людей. Во всем мире немцев ассоциируют с пивом и колбасками, необычными фестивалями и пунктуальностью на работе. На самом деле, у них есть еще много оригинального, что нам может показаться странным.   Везде берут своих собак  Собаки в Германии являются очень популярными домашними животными. С ними посещают кафе и рестораны, парикмахерские и парки. Владельцы заведений не имеют ничего против них.<a class="read-more" href="/articles/nemeckie-privychki-kotorye-kazhutsja-nam-strannymi.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-177"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="zero">
+                0            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/nemeckie-privychki-kotorye-kazhutsja-nam-strannymi.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+            
+			<div class="content_list_item articles_list_item">
+
+                                    <div class="photo">
+                                                    <a href="/articles/plohie-muzhskie-privychki-s-zhenskoi-tochki-zrenija.html">
+                                <img src="/upload/000/u1/0/8/plohie-muzhskie-privychki-s-zhenskoi-tochki-zrenija-photo-small.jpg" title="Плохие мужские привычки с женской точки зрения" alt="Плохие мужские привычки с женской точки зрения"  />                            </a>
+                                                                    </div>
+                
+                <div class="fields">
+
+                
+                    
+                    <div class="field ft_caption f_title">
+
+                        
+                                                    <h2 class="value">
+                                                        
+                                                            <a href="/articles/plohie-muzhskie-privychki-s-zhenskoi-tochki-zrenija.html">Плохие мужские привычки с женской точки зрения</a>
+                                                                                        </h2>
+                        
+                    </div>
+
+                
+                    
+                    <div class="field ft_html f_content">
+
+                        
+                                                    <div class="value">
+                                                                    Статистика по разводам оставляет желать лучшего: почти каждая вторая пара приходит к такому печальному финалу. Супруги часто не могут уступить друг другу в каких-то важных семейных делах, не сходятся характерами, не хотят работать над собой. Но есть определенные действия со стороны мужчин, которые часто провоцируют окончательный разрыв.<a class="read-more" href="/articles/plohie-muzhskie-privychki-s-zhenskoi-tochki-zrenija.html">Подробнее</a>                                                            </div>
+                        
+                    </div>
+
+                
+                </div>
+
+                
+                                    <div class="info_bar">
+                                                    <div class="bar_item bi_rating" title="">
+                                                                    
+<div class="rating_widget content_articles_rating" id="rating-articles-176"
+    >
+        <div class="arrow up">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+    <div class="score" title="Рейтинг">
+                    <span class="zero">
+                0            </span>
+            </div>
+
+    <div class="arrow down">
+                    <span class="disabled" title="Вы не можете голосовать">
+                <svg viewBox="0 0 24 24" class="style-svg"><g class="style-svg"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z" class="style-svg"></path></g></svg>
+            </span>
+            </div>
+
+</div>
+
+                                                            </div>
+                                                    <div class="bar_item bi_user" title="Автор">
+                                                                    <a href="/users/1">MneMag</a>                                                            </div>
+                                                    <div class="bar_item bi_comments" title="Комментарии">
+                                                                    <a href="/articles/plohie-muzhskie-privychki-s-zhenskoi-tochki-zrenija.html#comments">0</a>
+                                                            </div>
+                                            </div>
+                
+            </div>
+
+        
+    </div>
+
+            <div class="pagebar"><span class="pagebar_nav"> <span class="pagebar_page disabled">&larr; Предыдущая</span>  <a href="/articles?page=2" class="pagebar_page">Следующая &rarr;</a> </span><span class="pagebar_pages"><span class="pagebar_current">1</span> <a href="/articles?page=2" class="pagebar_page">2</a>  <a href="/articles?page=3" class="pagebar_page">3</a>  <a href="/articles?page=4" class="pagebar_page">4</a>  <a href="/articles?page=15" class="pagebar_page">>>></a> </span><div class="pagebar_notice">Показаны 1-12 из 171</div></div>    
+
+								</div>
+							</article>
+						
+													<div id="widget_pos_left-bottom"><div class="widget_html_block"><!-- Yandex.RTB R-A-398132-3 -->
+<div id="yandex_rtb_R-A-398132-3"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-398132-3",
+                renderTo: "yandex_rtb_R-A-398132-3",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script></div>
+
+</div>
+						
+					</section>
+																<aside id="tc_right_sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+							<div id="widget_pos_right-top"><div class="widget" id="widget_wrapper_107">
+        <div class="body">
+         
+  
+   
+   
+ <div class="widget-cats" style="margin:-15px">
+
+	
+ <ul class="cmpro-accordion ">
+
+        
+        
+            
+            
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/onlajn-magaziny" class="">
+                    <span class="cat-title">Онлайн магазины\Инструкции</span>
+										
+					
+					<i class="items_counter">6</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/business" class="tb-item">
+                    <span class="cat-title">Бизнес</span>
+					                    <span class="toggle-btn"></span>
+										
+					
+					<i class="items_counter">18</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                <ul>
+            
+        
+            
+            
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/business/internet-magaziny" class="">
+                    <span class="cat-title">Онлайн торговля</span>
+										
+					
+					<i class="items_counter">7</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            </li></ul>
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/deti" class="">
+                    <span class="cat-title">Дети</span>
+										
+					
+					<i class="items_counter">12</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/zhizn" class="">
+                    <span class="cat-title">Жизнь \ Отношения</span>
+										
+					
+					<i class="items_counter">6</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/dom" class="">
+                    <span class="cat-title">Дом и дача</span>
+										
+					
+					<i class="items_counter">19</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/dosug-i-razvlecheniya" class="">
+                    <span class="cat-title">Досуг \ Развлечения</span>
+										
+					
+					<i class="items_counter">8</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/turizm-i-otdyh" class="">
+                    <span class="cat-title">Туризм \ Отдых</span>
+										
+					
+					<i class="items_counter">18</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/krasota" class="">
+                    <span class="cat-title">Красота \ Здоровье</span>
+										
+					
+					<i class="items_counter">22</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/training" class="">
+                    <span class="cat-title">Обучение</span>
+										
+					
+					<i class="items_counter">10</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/odezhda" class="">
+                    <span class="cat-title">Одежда \ Мода  \ Стиль</span>
+										
+					
+					<i class="items_counter">12</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/pitomcy" class="">
+                    <span class="cat-title">Питомцы</span>
+										
+					
+					<i class="items_counter">10</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/sport" class="">
+                    <span class="cat-title">Спорт</span>
+										
+					
+					<i class="items_counter">9</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/tehnika-i-elektronika" class="">
+                    <span class="cat-title">Техника\Электроника</span>
+										
+					
+					<i class="items_counter">11</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+            
+            
+              </li>
+            
+                        
+<li class="">
+		  
+		    <div>
+                <a href="/articles/drugoe" class="">
+                    <span class="cat-title">О разном</span>
+										
+					
+					<i class="items_counter">10</i>
+					 
+					
+                </a>		     
+			</div>
+			
+                
+            
+        
+        </li></ul>
+        
+
+
+	
+</div>		
+
+	    </div>
+	</div></div>
+							<div id="widget_pos_right-center"><div class="widget" id="widget_wrapper_65">
+            <h4 class="title">
+            <div itemprop="name">
+									<span onClick="wdToggleSetting(65)" class="tc_wd_sett dsct_right" data-tc-tip="Настройки">
+						<i class="fa fa-cog"></i>
+					</span>
+								<span>Меню</span>
+			</div>
+                    </h4>
+					<div class="edit_wlinks">
+    <a class="edit"
+       href="#"
+       onclick="return widgetEdit(100, '/admin/widgets/edit', 'tc');">
+        Редактировать    </a>
+    <a class="delete"
+       href="#"
+       onclick="return widgetDelete(65, '/admin/widgets/delete', 'Удалить виджет?');">
+           Удалить    </a>
+</div>		        <div class="body">
+        <ul class="menu">
+
+    
+    
+        
+        
+        
+        <li class="bell ajax-modal notices-counter">
+                            <a title="Уведомления" class="item"  href="/messages/notices"  target="_self">
+                    <span class="wrap">
+                        Уведомления                                                    <span class="counter">1</span>
+                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="profile">
+                            <a title="Мой профиль" class="item"  href="/users/1"  target="_self">
+                    <span class="wrap">
+                        Мой профиль                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="messages messages-counter ajax-modal">
+                            <a title="Мои сообщения" class="item"  href="/messages"  target="_self">
+                    <span class="wrap">
+                        Мои сообщения                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="friends">
+                            <a title="Друзья" class="item"  href="/users/1/friends"  target="_self">
+                    <span class="wrap">
+                        Друзья                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="bell">
+                            <a title="Связь" class="item"  href="/feedback"  target="_self">
+                    <span class="wrap">
+                        Связь                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="checklist">
+                            <a title="Модерация" class="item"  href="/moderation"  target="_self">
+                    <span class="wrap">
+                        Модерация                                                    <span class="counter">4</span>
+                                            </span>
+                </a>
+            
+            
+        
+    
+            </li></ul>
+        </div>
+	</div><div class="widget" id="widget_wrapper_30">
+        <div class="body">
+        <ul class="menu">
+
+    
+    
+        
+        
+        
+        <li class="add">
+                            <a title="Добавить статью" class="item"  href="/articles/add"  >
+                    <span class="wrap">
+                        Добавить статью                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="folder_add">
+                            <a title="Создать категорию" class="item"  href="/articles/addcat"  >
+                    <span class="wrap">
+                        Создать категорию                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li class="page_gear">
+                            <a title="Настроить читальня" class="item"  href="/admin/ctypes/edit/5"  >
+                    <span class="wrap">
+                        Настроить читальня                                            </span>
+                </a>
+            
+            
+        
+    
+            </li></ul>
+        </div>
+	</div><div class="widget" id="widget_wrapper_119">
+            <h4 class="title">
+            <div itemprop="name">
+									<span onClick="wdToggleSetting(119)" class="tc_wd_sett dsct_right" data-tc-tip="Настройки">
+						<i class="fa fa-cog"></i>
+					</span>
+								<span>Новые записки</span>
+			</div>
+                    </h4>
+					<div class="edit_wlinks">
+    <a class="edit"
+       href="#"
+       onclick="return widgetEdit(168, '/admin/widgets/edit', 'tc');">
+        Редактировать    </a>
+    <a class="delete"
+       href="#"
+       onclick="return widgetDelete(119, '/admin/widgets/delete', 'Удалить виджет?');">
+           Удалить    </a>
+</div>		        <div class="body">
+        
+    <div class="widget_content_list">
+        
+            
+            <div class="item">
+                                <div class="info">
+                    <div class="title">
+                                                    <a href="/posts/72-pokupki-v-internet-ozhidanie-i-realnost.html">Покупки в интернет: ожидание и реальность</a>
+                                                                    </div>
+                                            <div class="teaser">
+                                                            Чтобы не попадать в рубрику таких фото, на сайтах, покупайте только в проверенных интернет магазинах.                                                    </div>
+                                                                <div class="details">
+                            <span class="author">
+                                <a href="/users/1">MneMag</a>
+                                                            </span>
+                            <span class="date">
+                                1 год назад                            </span>
+                                                            <span class="comments">
+                                                                            <a href="/posts/72-pokupki-v-internet-ozhidanie-i-realnost.html#comments" title="Комментарии">
+                                            4                                        </a>
+                                                                    </span>
+                                                    </div>
+                                    </div>
+            </div>
+
+        
+            
+            <div class="item">
+                                <div class="info">
+                    <div class="title">
+                                                    <a href="/posts/71-otdai-moi-svoi-sumki.html">Отдай свои сумки!</a>
+                                                                    </div>
+                                            <div class="teaser">
+                                                            В самом крупном торговом центре устроили ночь распродаж, которую я не могла пропустить.                                                    </div>
+                                                                <div class="details">
+                            <span class="author">
+                                <a href="/users/5">Svetik</a>
+                                                            </span>
+                            <span class="date">
+                                1 год назад                            </span>
+                                                            <span class="comments">
+                                                                            <a href="/posts/71-otdai-moi-svoi-sumki.html#comments" title="Комментарии">
+                                            0                                        </a>
+                                                                    </span>
+                                                    </div>
+                                    </div>
+            </div>
+
+        
+            
+            <div class="item">
+                                <div class="info">
+                    <div class="title">
+                                                    <a href="/posts/70-vernite-dzhinsy.html">Верните джинсы</a>
+                                                                    </div>
+                                            <div class="teaser">
+                                                            Ситуация случилась с моей любимой подружкой Катей. Мы решили отправиться в торговый центр, чтобы купить новые вещи на лето.                                                    </div>
+                                                                <div class="details">
+                            <span class="author">
+                                <a href="/users/5">Svetik</a>
+                                                            </span>
+                            <span class="date">
+                                1 год назад                            </span>
+                                                            <span class="comments">
+                                                                            <a href="/posts/70-vernite-dzhinsy.html#comments" title="Комментарии">
+                                            1                                        </a>
+                                                                    </span>
+                                                    </div>
+                                    </div>
+            </div>
+
+            </div>
+
+    </div>
+	</div></div>
+							<div id="widget_pos_right-bottom"></div>
+						</aside>
+									</div>
+				</div>
+			</div>
+			
+			
+		</div>
+
+        		
+		<footer id="tc_footer" itemscope="" itemtype="http://schema.org/WPFooter">
+			<div class="tc_footer_inner">
+				<div class="tc_boxed">
+					<div id="widget_pos_footers"></div>
+				</div>
+								<div class="tc_copyrights">
+					<div class="tc_copyright_blocks tc_boxed">
+						<div class="tc_left_copyright">
+							<span class="tc_copytxt">
+								<a href="/" itemprop="copyrightHolder">MneMag</a>	&copy; 2018 - 2020							</span>
+													</div>
+						<div class="tc_right_copyright">
+							<div id="widget_pos_footer"><ul class="menu">
+
+    
+    
+        
+        
+        
+        <li >
+                            <a title="Контакты" class="item"  href="/feedback"  >
+                    <span class="wrap">
+                        Контакты                                            </span>
+                </a>
+            
+            
+        
+    
+        
+                    </li>
+        
+        
+        <li >
+                            <a title="Помощь" class="item"  href="/help"  target="_self">
+                    <span class="wrap">
+                        Помощь                                            </span>
+                </a>
+            
+            
+        
+    
+            </li></ul>
+    
+<svg style="position: absolute;" height="0" width="0" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+                    <symbol id="icon-up" viewBox="0 0 24 24">
+                <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </symbol>
+            <symbol id="icon-down" viewBox="0 0 24 24">
+                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </symbol>
+                    </defs>
+</svg>
+
+<a href="#" class="btn-scroll-up hi-icon hidden " id="btn-scroll" title="Наверх">
+    <svg class="btn-scroll-up-icon"><use xlink:href="#icon-up"></use></svg>
+</a>
+
+<script>
+    icms.updownscroll.setOptions({
+        title: {
+            up:     "Наверх",
+            down:   "Вниз"
+        },
+
+        view: {
+            shape:              "square",
+            size:               120,
+            is_heigh:           true,
+            btn_color:          "rgba(0, 0, 0, 0)",
+            btn_color_hover:    "rgba(0, 0, 0, 0)",
+            icon_color:         "rgb(70, 70, 70, 0.45)",
+            icon_color_hover:   "rgb(70, 70, 70, 0.45)"
+        },
+
+        position: {
+                                                
+                                    bottom: "20px",            left: "20px"        },
+
+        distance:       300,
+        scroll_speed:   200,
+        z_index:        99
+    });
+</script></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		<!-- Yandex.Metrika counter -->
+            <script type="text/javascript" >
+               (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+               m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+               (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+            
+               ym(49019156, "init", {
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+               });
+            </script>
+            <noscript><div><img src="https://mc.yandex.ru/watch/49019156" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112957705-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'UA-112957705-2');
+        </script>
+
+		</footer>
+		
+				
+    </div>
+		<script src='/templates/tc/js/flexmenu.min.js'></script>
+	<script src='/templates/tc/js/hc-offcanvas-nav.js'></script>
+	<script src='/templates/tc/js/my.js?15280247622'></script>
+</body>
+</html>
