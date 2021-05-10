@@ -26,14 +26,14 @@
 	    <link rel="stylesheet" type="text/css" href="/templates/tc/css/gll.css?15280247622">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-    
+
 </head>
 <body id="desktop_device_type" itemscope itemtype="http://schema.org/WebPage">
 
-	
+
     <div id="layout" class="is_page_articles">
 
-        		
+
 		<header class="tc_header" itemscope itemtype="http://schema.org/WPHeader">
 							<div id="tc_top_header">
 					<div class="tc_boxed">
@@ -93,375 +93,375 @@
 
     <ul class="menu">
 
-    
-    
-        
-        
-        
+
+
+
+
+
         <li class="bell ajax-modal notices-counter">
                             <a title="Уведомления" class="item"  href="/messages/notices"  target="_self">
                     <span class="wrap">
                         Уведомления                                                    <span class="counter">1</span>
                                             </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="profile">
                             <a title="Профиль" class="item"  href="/users/1"  target="_self">
                     <span class="wrap">
                         Профиль                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="messages messages-counter ajax-modal">
                             <a title="Сообщения" class="item"  href="/messages"  target="_self">
                     <span class="wrap">
                         Сообщения                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="checklist">
                             <a title="Модерация" class="item"  href="/moderation"  >
                     <span class="wrap">
                         Модерация                                                    <span class="counter">4</span>
                                             </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="folder add">
                             <a title="Добавить" class="item"  href="#"  >
                     <span class="wrap">
                         Добавить                                            </span>
                 </a>
-            
+
             <ul>
-        
-    
-        
-        
-        
+
+
+
+
+
         <li class="add">
                             <a title="Добавить объявление" class="item"  href="/board_ads/add"  >
                     <span class="wrap">
                         Добавить объявление                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="add">
                             <a title="Добавить новость" class="item"  href="/news/add"  >
                     <span class="wrap">
                         Добавить новость                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="add">
                             <a title="Добавить новость магазина" class="item"  href="/snews/add"  >
                     <span class="wrap">
                         Добавить новость магазина                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="add">
                             <a title="Добавить Магазин\Компанию" class="item"  href="/shop/add"  >
                     <span class="wrap">
                         Добавить Магазин\Компанию                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="add">
                             <a title="Добавить отзыв" class="item"  href="/reviews/add"  >
                     <span class="wrap">
                         Добавить отзыв                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="add">
                             <a title="Добавить записку" class="item"  href="/posts/add"  >
                     <span class="wrap">
                         Добавить записку                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="add">
                             <a title="Добавить статью" class="item"  href="/articles/add"  >
                     <span class="wrap">
                         Добавить статью                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="add">
                             <a title="Добавить блог в сообществе" class="item"  href="/gblog/add"  >
                     <span class="wrap">
                         Добавить блог в сообществе                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="add">
                             <a title="Добавить информацию" class="item"  href="/info/add"  >
                     <span class="wrap">
                         Добавить информацию                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="add">
                             <a title="Добавить страницу" class="item"  href="/pages/add"  >
                     <span class="wrap">
                         Добавить страницу                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="add">
                             <a title="Добавить фотоальбом" class="item"  href="/albums/add"  >
                     <span class="wrap">
                         Добавить фотоальбом                                            </span>
                 </a>
-            
-            
-        
-    
+
+
+
+
                     </li></ul>
-        
+
                     </li>
-        
-        
+
+
         <li class="folder cpanel">
                             <a title="Панель управления" class="item"  href="/admin"  >
                     <span class="wrap">
                         Панель управления                                            </span>
                 </a>
-            
+
             <ul>
-        
-    
-        
-        
-        
+
+
+
+
+
         <li class="cpanel">
                             <a title="Контент" class="item"  href="/admin/content"  >
                     <span class="wrap">
                         Контент                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="cpanel">
                             <a title="Типы контента" class="item"  href="/admin/ctypes"  >
                     <span class="wrap">
                         Типы контента                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="cpanel">
                             <a title="Меню" class="item"  href="/admin/menu"  >
                     <span class="wrap">
                         Меню                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="cpanel">
                             <a title="Виджеты и страницы" class="item"  href="/admin/widgets"  >
                     <span class="wrap">
                         Виджеты и страницы                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="cpanel">
                             <a title="Компоненты" class="item"  href="/admin/controllers"  >
                     <span class="wrap">
                         Компоненты                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="cpanel">
                             <a title="Каталог дополнений" class="item"  href="/admin/addons_list"  >
                     <span class="wrap">
                         Каталог дополнений                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="cpanel">
                             <a title="Пользователи" class="item"  href="/admin/users"  >
                     <span class="wrap">
                         Пользователи                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="cpanel">
                             <a title="Настройки" class="item"  href="/admin/settings"  >
                     <span class="wrap">
                         Настройки                                            </span>
                 </a>
-            
-            
-        
-    
+
+
+
+
                     </li></ul>
-        
+
                     </li>
-        
-        
+
+
         <li class="logout">
                             <a title="Выйти" class="item"  href="/auth/logout"  target="_self">
                     <span class="wrap">
                         Выйти                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Комментарии" class="item"  href="/admin/controllers/edit/comments"  target="_blank">
                     <span class="wrap">
                         Комментарии                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Обратная связь" class="item"  href="/admin/controllers/edit/feedbackl/viwe"  target="_blank">
                     <span class="wrap">
                         Обратная связь                                            </span>
                 </a>
-            
-            
-        
-    
+
+
+
+
             </li></ul>
-    
+
 </div>
 <a class="topbar_search_button" href="javascript:void(0);"><i class="fa fa-search"></i></a>
 <div class="topbar_search tc_boxed">
@@ -480,124 +480,124 @@
 						<nav id="main_menu">
 							<ul class="menu">
 
-    
-    
-        
-        
-        
+
+
+
+
+
         <li >
                             <a title="Новости" class="item"  href="/news/glavnye"  target="_self">
                     <span class="wrap">
                         Новости                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Магазины и услуги" class="item"  href="/shop"  target="_self">
                     <span class="wrap">
                         Магазины и услуги                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Отзывы" class="item"  href="/reviews"  target="_self">
                     <span class="wrap">
                         Отзывы                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Объявления" class="item"  href="/board_ads"  target="_self">
                     <span class="wrap">
                         Объявления                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="active">
                             <a title="Читальня" class="item"  href="/articles"  target="_self">
                     <span class="wrap">
                         Читальня                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Вопрос\Ответ" class="item"  href="/questions"  target="_self">
                     <span class="wrap">
                         Вопрос\Ответ                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Полезное" class="item"  href="/info"  target="_self">
                     <span class="wrap">
                         Полезное                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Записки" class="item"  href="/posts"  target="_self">
                     <span class="wrap">
                         Записки                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Помощь" class="item"  href="/help"  target="_self">
                     <span class="wrap">
                         Помощь                                            </span>
                 </a>
-            
-            
-        
-    
+
+
+
+
             </li></ul>
     						</nav>
 						<a href="javascript:void(0);" class="menu_mobile is_mm" style="display:none">
@@ -605,131 +605,131 @@
 <nav id="menu_mobile" style="display:none">
 	<ul class="menu">
 
-    
-    
-        
-        
-        
+
+
+
+
+
         <li >
                             <a title="Новости" class="item"  href="/news/glavnye"  target="_self">
                     <span class="wrap">
                         Новости                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Магазины и услуги" class="item"  href="/shop"  target="_self">
                     <span class="wrap">
                         Магазины и услуги                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Отзывы" class="item"  href="/reviews"  target="_self">
                     <span class="wrap">
                         Отзывы                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Объявления" class="item"  href="/board_ads"  target="_self">
                     <span class="wrap">
                         Объявления                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li class="active">
                             <a title="Читальня" class="item"  href="/articles"  target="_self">
                     <span class="wrap">
                         Читальня                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Вопрос\Ответ" class="item"  href="/questions"  target="_self">
                     <span class="wrap">
                         Вопрос\Ответ                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Полезное" class="item"  href="/info"  target="_self">
                     <span class="wrap">
                         Полезное                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Записки" class="item"  href="/posts"  target="_self">
                     <span class="wrap">
                         Записки                                            </span>
                 </a>
-            
-            
-        
-    
-        
+
+
+
+
+
                     </li>
-        
-        
+
+
         <li >
                             <a title="Помощь" class="item"  href="/help"  target="_self">
                     <span class="wrap">
                         Помощь                                            </span>
                 </a>
-            
-            
-        
-    
+
+
+
+
             </li></ul>
     </nav>					</div>
 				</div>
 					</header>
-		
+
 		<div id="body">
-		
+
 							<div class="breadcrumbs">
 					<div id="breadcrumbs" class="tc_boxed">
 						<ul itemscope itemtype="http://schema.org/BreadcrumbList">
@@ -742,35 +742,35 @@
 		<meta itemprop="position" content="0" />
     </li>
 
-    
-        
-            
+
+
+
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                                     <span itemprop="item"><span itemprop="name">Читальня</span></span>
                 				<meta itemprop="position" content="1" />
             </li>
 
-            
-        
+
+
     </ul>					</div>
 				</div>
-					
-			
+
+
 			<div class="tc_b_center">
 				<div class="tc_boxed">
 				<div class="tc_columns tc_col_rm">
-				
+
 					<section id="tc_main_content">
 
-												
-						
+
+
 													<article>
 								<div id="controller_wrap">
 									<div class="subscribe_wrap">
     <a href="#" class="subscriber" data-hash="76a5217ad05aa3dd8e9368e30d80fc26" data-link0="/subscriptions/subscribe" data-link1="/subscriptions/unsubscribe" data-text0="Подписаться" data-text1="Отписаться" data-issubscribe="1" data-target="{&quot;controller&quot;:&quot;content&quot;,&quot;subject&quot;:&quot;articles&quot;,&quot;params&quot;:[]}"><svg class="style-svg" width="14" height="14" viewBox="0 0 18 18"><g fill="none"><path d="M2.5 14h13v-.382l-2-1V12l.002-3.938c-.152-2.44-1.12-4.02-3.262-4.596l-.74-.2V2h-1v1.267l-.74.199C5.669 4.028 4.658 5.66 4.5 8v4.618l-2 1V14z" stroke="#FFF" stroke-width="2"></path><path d="M9 17c.986 0 1.5-.514 1.5-1.5V15h-3v.5c0 .986.514 1.5 1.5 1.5z" fill="#FFF"></path><path d="M2.5 14h13v-.382l-2-1V12l.002-3.938c-.152-2.44-1.12-4.02-3.262-4.596l-.74-.2V2h-1v1.267l-.74.199C5.669 4.028 4.658 5.66 4.5 8v4.618l-2 1V14z" stroke="#FFF" stroke-width="2"></path></g></svg> <span></span></a>
     <div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div>
     <span title="Подписчики" class="count-subscribers" data-list_link="/subscriptions/list_subscribers/76a5217ad05aa3dd8e9368e30d80fc26">2</span>
-</div>									
+</div>
 
     <h1>
         Полезные, интересные и обучающие статьи            </h1>
@@ -779,23 +779,23 @@
     <ul class="pills-menu">
                                         <li class="active all">
 
-                
+
                                     <div>Все</div>
-                
+
             </li>
                                             <li class="discussion">
 
-                
+
                                     <a href="/articles-discussion">
                         Обсуждаемые                    </a>
-                
+
             </li>
                                             <li class="rating">
 
-                
+
                                     <a href="/articles-rating">
                         Рейтинг                    </a>
-                
+
             </li>
                         </ul>
 </div>
@@ -2222,8 +2222,8 @@
                                                             </span>
                             <span class="date">
                                 1 год назад                            </span>
-                                                            <span class="comments">
-                                                                            <a href="/posts/72-pokupki-v-internet-ozhidanie-i-realnost.html#comments" title="Комментарии">
+
+                       <span class="comments"><a href="'/posts/72-pokupki-v-internet-ozhidanie-i-realnost.html#comments" title="Комментарии">
                                             4                                        </a>
                                                                     </span>
                                                     </div>
@@ -2235,7 +2235,7 @@
             <div class="item">
                                 <div class="info">
                     <div class="title">
-                                                    <a href="/posts/71-otdai-moi-svoi-sumki.html">Отдай свои сумки!</a>
+                                                    <a href="'/posts/71-otdai-moi-svoi-sumki.html">Отдай свои сумки!</a>
                                                                     </div>
                                             <div class="teaser">
                                                             В самом крупном торговом центре устроили ночь распродаж, которую я не могла пропустить.                                                    </div>
@@ -2408,8 +2408,8 @@
         </script>
 
 		</footer>
-		
-				
+
+
     </div>
 		<script src='/templates/tc/js/flexmenu.min.js'></script>
 	<script src='/templates/tc/js/hc-offcanvas-nav.js'></script>

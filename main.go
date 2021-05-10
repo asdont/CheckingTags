@@ -52,23 +52,11 @@ func main() {
 	extractingTags(str)
 }
 
-//type checkTagsHref struct {
-//	numberType, numberHref int
-//	url string
-//	validTag, validUrl []bool
-//}
-//
-//func (tag *checkTagsHref) result()  {
-//	res := map[string]string{}
-//	fmt.Println(tag.numberType, tag.numberHref, tag.url, tag.validTag, tag.validUrl)
-//}
-
-func extractingTags(bodyString string) {
-
+func extractingTags(bodyHtml string) {
 	// добыча тегов
 	const (
 		hrefType1 = `<a ([\s\S]*?)a>`         // <a "https://url.ru">text a>
-		hrefType2 = `<[\s\S]href([\s\S]*?)a>` // < href="https://url.ru">text</a>
+		hrefType2 = `<[\s\S]href([\s\S]*?)a>` // < href="https://url.ru">text a>
 		imgType1  = `<img([\s\S]*?)>`
 	)
 
@@ -76,53 +64,63 @@ func extractingTags(bodyString string) {
 	typesHref := []string{hrefType1, hrefType2}
 	typesImg := []string{imgType1}
 
-	resHref := map[string][]bool{}
+	//bodyHtmlClean := strings.Join(strings.Fields(bodyHtml), " ")
+
+	countHref := 0
 	for _, typeHref := range typesHref {
-		listHref := regexp.MustCompile(typeHref).FindAllString(bodyString, -1)
-		for _, href := range listHref {
-			tagHref, checksTag := validationHrefTag(cleanedTag(href))
-			resHref[tagHref] = checksTag
+		listHref := regexp.MustCompile(typeHref).FindAllString(bodyHtml, -1)
+		countHref = countHref + len(listHref)
+		for _, hrefTag := range listHref {
+			link, checksTag := validationHrefTag(hrefTag)
+			errorHandling("href", hrefTag, link, checksTag, bodyHtml)
 		}
 	}
+	fmt.Printf("Найдено %d <a href>\n", countHref)
 
-	resImg := map[string][]bool{}
+	countImg := 0
 	for _, typeImg := range typesImg {
-		listImg := regexp.MustCompile(typeImg).FindAllString(bodyString, -1)
-		for _, img := range listImg {
-			tagImg, checksTag := validationImgTag(cleanedTag(img))
-			resImg[tagImg] = checksTag
+		listImg := regexp.MustCompile(typeImg).FindAllString(bodyHtml, -1)
+		countImg = countImg + len(listImg)
+		for _, imgTag := range listImg {
+			link, checksTag := validationImgTag(imgTag)
+			errorHandling("img", imgTag, link, checksTag, bodyHtml)
 		}
 	}
-
-	handlingAErrors(resHref)
-	handlingImgErrors(resImg)
+	fmt.Printf("Найдено %d <img src>\n", countImg)
 }
 
-func cleanedTag(tag string) string {
-	// очистка тегов от избыточных символов
-	tag = strings.Replace(tag, "\n", "", -1)
-	tag = strings.Join(strings.Fields(tag), " ")
-	return tag
-}
+func errorHandling(tagType string, tag string, link string, tagErrors []bool, bodyHtml string) {
+	// обработка найденых ошибок в тегах
+	bodyHtmlLines := strings.Split(bodyHtml, "\n")
+	//bodyHtml = strings.Trim(bodyHtml, "\n")
 
-//TODO выбросить целые теги
-func handlingAErrors(resHref map[string][]bool) {
-	for tag, tagErrors := range resHref {
-		for i := range tagErrors {
-			if !tagErrors[i] {
-				fmt.Println(tag, tagErrors)
-				break
+	for i := range tagErrors {
+		if !tagErrors[i] {
+			positionTag := strings.Index(bodyHtml, tag)
+
+			for i, stroke := range bodyHtmlLines {
+				positionTag = positionTag - len(stroke) - 1
+				if positionTag <= 0 {
+					positionTag = positionTag + len(stroke) + 1
+					fmt.Printf("строка - %d столбец - %d, тег - %s\n", i+1, positionTag, tag)
+
+					switch tagType {
+					case "href":
+						fmt.Print("href\n")
+					case "img":
+						fmt.Print("img")
+					}
+
+					break
+				}
 			}
 		}
 	}
-}
 
-func handlingImgErrors(tags map[string][]bool) {
-	fmt.Println(tags)
 }
 
 func validationHrefTag(tagHref string) (string, []bool) {
-	tagHref = strings.ToLower(strings.Replace(tagHref, "'", "\"", -1))
+	tagHref = strings.ToLower(tagHref)
 
 	linkHref := regexp.MustCompile(`[href]{3,4}="[\s\S]*?"`).FindString(tagHref) // href="link.url"
 
@@ -147,11 +145,11 @@ func validationHrefTag(tagHref string) (string, []bool) {
 		correctnessTagHref = append(correctnessTagHref, boolResult)
 	}
 
-	return tagHref, correctnessTagHref
+	return linkHref, correctnessTagHref
 }
 
 func validationImgTag(tagImg string) (string, []bool) {
-	tagImg = strings.ToLower(strings.Replace(tagImg, "'", "\"", -1))
+	tagImg = strings.ToLower(tagImg)
 
 	linkImg := regexp.MustCompile(`[src]{3}="[\s\S]*?"`).FindString(tagImg) // src="link.url"
 
@@ -175,17 +173,18 @@ func validationImgTag(tagImg string) (string, []bool) {
 		correctnessTagImg = append(correctnessTagImg, boolResult)
 	}
 
-	return tagImg, correctnessTagImg
+	return linkImg, correctnessTagImg
 }
 
 func validationURL(tagURL string) []bool {
 	// валидация url относительного(<protocol>://<domain>) и абсолютного типа(/<path>/<path>)
 	var existProtocol, existDomain, existSeparators, existSybolsAllowed, existDot bool
-	existProtocol = true                                                         // наличие протокола
-	existSeparators = true                                                       // наличие разделителей
-	existDomain = len(tagURL) > 0                                                // длина ссылки, например vk.ru(5)
-	existSybolsAllowed = !regexp.MustCompile(`[^\w:/.#-=?]`).MatchString(tagURL) // проверка запрещенных символов
-	existDot = true                                                              // наличие точки
+
+	existProtocol = true                                                           // наличие протокола
+	existSeparators = true                                                         // наличие разделителей
+	existDomain = len(tagURL) > 0                                                  // длина ссылки, например vk.ru(5)
+	existSybolsAllowed = !regexp.MustCompile(`[^\w:/.#-=?]|'`).MatchString(tagURL) // проверка запрещенных символов
+	existDot = true                                                                // наличие точки
 
 	isAbsolute := regexp.MustCompile(`:/|/{2}|[htps]{4,5}`).MatchString(tagURL)
 	if isAbsolute {
