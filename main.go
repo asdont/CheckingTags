@@ -12,9 +12,10 @@ import (
 )
 
 func main() {
-	//body := getBodyFromFile("urls2.txt") // string
-	// TODO пустые строки
-	body := getBodyFromUrl("https://pkg.go.dev/golang.org/x/net/html") // string
+	//body := getBodyFromFile("urlsTest2.txt") // string
+	// TODO errorHandling -> strings.Split(bodyHtml, "\n")
+	//body := getBodyFromUrl("https://pkg.go.dev/golang.org/x/net/html") // string
+	body := getBodyFromUrl("https://mnemag.ru/pages/test-tag.html") // string
 
 	// извлечение невалидных тегов
 	hrefTags := extractingTags("href", body) // map[string][]bool
@@ -145,67 +146,67 @@ func displayingErrors(tagType string, tagsErrors map[string][]bool) {
 	for tag, tagErrors := range tagsErrors {
 		switch tagType {
 		case "href":
-			fmt.Println("\n", tag, "ошибки -> ", tagErrors)
+			fmt.Println("\n", tag, "\n", "ошибки ->", tagErrors)
 			if !tagErrors[0] {
-				fmt.Println("отсутствует открывающий тег <a ")
+				fmt.Println(">> отсутствует открывающий тег <a ")
 			}
 			if !tagErrors[1] {
-				fmt.Println("отсутствует атрибут href")
+				fmt.Println(">> отсутствует атрибут href")
 			}
 			if !tagErrors[2] {
-				fmt.Println("не найден url в атрибуте href или href не соответсвует требованиям")
+				fmt.Println(">> не найден url в атрибуте href или href не соответсвует требованиям")
 			}
 			if !tagErrors[3] {
-				fmt.Println("отсутствует текст ссылки(невидимая ссылка) или неверно указан href")
+				fmt.Println(">> отсутствует текст ссылки(невидимая ссылка) или неверно указан href")
 			}
 			if !tagErrors[4] {
-				fmt.Println("отсутствует закрывающий тег </a>")
+				fmt.Println(">> отсутствует закрывающий тег </a>")
 			}
 
 			if !tagErrors[5] {
-				fmt.Println("отсутствует указание протокола http или https")
+				fmt.Println(">> отсутствует указание протокола http или https")
 			}
 			if !tagErrors[6] {
-				fmt.Println("отустствуют разделители или меньше чем требуется")
+				fmt.Println(">> отустствуют разделители или меньше чем требуется")
 			}
 			if !tagErrors[7] {
-				fmt.Println("короткая длина ссылки, возможно ссылка неверна")
+				fmt.Println(">> короткая длина ссылки, возможно ссылка неверна")
 			}
 			if !tagErrors[8] {
-				fmt.Println("в ссылке присутствуют запрещённые символы или неверно указан href")
+				fmt.Println(">> в ссылке присутствуют запрещённые символы или неверно указан href")
 			}
 			if !tagErrors[9] {
-				fmt.Println("в ссылке не найдена точка, возможно так не должно быть")
+				fmt.Println(">> в ссылке не найдена точка, возможно так не должно быть")
 			}
 		case "img":
 			fmt.Println("проверки ->", tagErrors)
 			if !tagErrors[0] {
-				fmt.Println("отсутствует открывающий тег <img ")
+				fmt.Println(">> отсутствует открывающий тег <img ")
 			}
 			if !tagErrors[1] {
-				fmt.Println("отсутствует атрибут src")
+				fmt.Println(">> отсутствует атрибут src")
 			}
 			if !tagErrors[2] {
-				fmt.Println("не найден url в атрибуте src или src не соответсвует требованиям")
+				fmt.Println(">> не найден url в атрибуте src или src не соответсвует требованиям")
 			}
 			if !tagErrors[3] {
-				fmt.Println("отсутствует закрывающий тег >")
+				fmt.Println(">> отсутствует закрывающий тег >")
 			}
 
 			if !tagErrors[4] {
-				fmt.Println("отсутствует указание протокола http или https")
+				fmt.Println(">> отсутствует указание протокола http или https")
 			}
 			if !tagErrors[5] {
-				fmt.Println("отустствуют разделители или меньше чем требуется")
+				fmt.Println(">> отустствуют разделители или меньше чем требуется")
 			}
 			if !tagErrors[6] {
-				fmt.Println("короткая длина ссылки, возможно ссылка неверна")
+				fmt.Println(">> короткая длина ссылки, возможно ссылка неверна")
 			}
 			if !tagErrors[7] {
-				fmt.Println("в ссылке присутствуют запрещённые символы")
+				fmt.Println(">> в ссылке присутствуют запрещённые символы")
 			}
 			if !tagErrors[8] {
-				fmt.Println("в ссылке не найдена точка, возможно так не должно быть")
+				fmt.Println(">> в ссылке не найдена точка, возможно так не должно быть")
 			}
 		}
 	}
