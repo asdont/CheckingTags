@@ -12,11 +12,9 @@ import (
 )
 
 func main() {
-	// тело страницы
-	body := getBodyFromFile("urls2.txt") // string
-
-	// TODO проблема с подсчётом строки невалидных тегов stroke = stroke / 2
-	//body := getBodyFromUrl("https://mnemag.ru/pages/test-tag.html") // string
+	//body := getBodyFromFile("urls2.txt") // string
+	// TODO пустые строки
+	body := getBodyFromUrl("https://mnemag.ru/pages/test-tag.html") // string
 
 	// извлечение невалидных тегов
 	hrefTags := extractingTags("href", body) // map[string][]bool
@@ -44,6 +42,7 @@ func getBodyFromUrl(url string) string {
 	if err != nil {
 		panic("не удалось прочитать тело страницы")
 	}
+
 	return string(bodyHtml)
 }
 
