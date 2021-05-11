@@ -14,7 +14,7 @@ import (
 func main() {
 	//body := getBodyFromFile("urls2.txt") // string
 	// TODO пустые строки
-	body := getBodyFromUrl("https://mnemag.ru/pages/test-tag.html") // string
+	body := getBodyFromUrl("https://pkg.go.dev/golang.org/x/net/html") // string
 
 	// извлечение невалидных тегов
 	hrefTags := extractingTags("href", body) // map[string][]bool

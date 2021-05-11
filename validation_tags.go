@@ -64,11 +64,11 @@ func validationURL(tagURL string) []bool {
 	// валидация url относительного(<protocol>://<domain>) и абсолютного типа(/<path>/<path>)
 	var existProtocol, existDomain, existSeparators, existSybolsAllowed, existDot bool
 
-	existProtocol = true                                                           // наличие протокола
-	existSeparators = true                                                         // наличие разделителей
-	existDot = true                                                                // наличие точки
-	existDomain = len(tagURL) > 0                                                  // длина ссылки, например vk.ru(5)
-	existSybolsAllowed = !regexp.MustCompile(`[^\w:/.#-=?]|'`).MatchString(tagURL) // проверка запрещенных символов
+	existProtocol = true                                                            // наличие протокола
+	existSeparators = true                                                          // наличие разделителей
+	existDot = true                                                                 // наличие точки
+	existDomain = len(tagURL) > 0                                                   // длина ссылки, например vk.ru(5)
+	existSybolsAllowed = !regexp.MustCompile(`[^\w:/.#-=?@]|'`).MatchString(tagURL) // проверка запрещенных символов
 
 	// если ссылка абсолютная, изменяем проверки
 	isAbsolute := regexp.MustCompile(`:/|/{2}|[htps]{4,5}`).MatchString(tagURL)
