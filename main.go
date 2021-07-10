@@ -14,7 +14,7 @@ import (
 func main() {
 	fmt.Println(strings.Repeat("-", 100))
 
-	//body, err := getBodyFromFile("urlsTest2.txt")
+	//body, err := getBodyFromFile("testdata/urlsTest2.txt")
 	//if err != nil {
 	//	log.Fatalf("get body page: %v", err)
 	//}
