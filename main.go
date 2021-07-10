@@ -12,14 +12,12 @@ import (
 )
 
 func main() {
-	//body := getBodyFromFile("urlsTest2.txt") // string
-	// TODO errorHandling -> strings.Split(bodyHtml, "\n")
-	//body := getBodyFromUrl("https://pkg.go.dev/golang.org/x/net/html") // string
-	body := getBodyFromUrl("https://mnemag.ru/pages/test-tag.html") // string
+	//body := getBodyFromFile("urlsTest2.txt")
+	body := getBodyFromUrl("https://pkg.go.dev/golang.org/x/net/html")
 
 	// извлечение невалидных тегов
-	hrefTags := extractingTags("href", body) // map[string][]bool
-	imgTags := extractingTags("img", body)   // map[string][]bool
+	hrefTags := extractingTags("href", body)
+	imgTags := extractingTags("img", body)
 
 	// отображение информации о ошибках
 	displayingErrors("href", hrefTags)
